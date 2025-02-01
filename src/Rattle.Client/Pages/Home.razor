@@ -1,5 +1,38 @@
 @page "/"
-@using Microsoft.AspNetCore.Components
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
 
-<h1>Welcome to Rattle</h1>
-<p>This is the homepage of Rattle.</p>
+<h1>Welcome to Rattle Auction</h1>
+
+@if (!(authState?.User?.Identity?.IsAuthenticated ?? false))
+{
+    <button class="btn btn-primary" @onclick="NavigateToLogin">Login</button>
+}
+else
+{
+    <p>You are logged in as @authState.User.Identity.Name!</p>
+    <button class="btn btn-danger" @onclick="Logout">Logout</button>
+}
+
+@code {
+    private AuthenticationState? authState;
+
+    protected override async Task OnInitializedAsync()
+    {
+        authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+    }
+
+    private void NavigateToLogin()
+    {
+        Navigation.NavigateTo("/login");
+    }
+
+    private void Logout()
+    {
+        if (AuthenticationStateProvider is CustomAuthStateProvider customAuthStateProvider)
+        {
+            customAuthStateProvider.MarkUserAsLoggedOut();
+        }
+        Navigation.NavigateTo("/");
+    }
+}

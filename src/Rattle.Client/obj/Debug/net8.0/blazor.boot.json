@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Rattle.Client",
   "resources": {
-    "hash": "sha256-+4XunCNm2oEIu8B/jHONQFlUBtqXZQ9TFXCajutUn7w=",
+    "hash": "sha256-GPmg1vAK0fe6R+7eITzPC31AeiFjIXvvwLezxOJDuBs=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
@@ -20,6 +20,7 @@
     "assembly": {
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-j29bzsbGr0GXbz3saSOBqDtWxNOK08Or3b1HgnZ+pvA=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-0SRqG4hZOVUUFxERmD93PJWBJR6d4gCf5UB9vF6jB9A=",
+      "Microsoft.AspNetCore.Components.Authorization.wasm": "sha256-EFv+L1YnGvKwdvpSUAgxwhBJoxTLebypp66mmnzNKr4=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-v5x7jiwdpMdHj54wA/JoDsrCrnr89XklOokSoWNJzF0=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-H1qHk5Kqn+R+8t/eTsZzQ5/5ZvgjmC8+ZPyuEp5nals=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-GDJfIU7XS7MlmrwWZh/CD4wNkm+PPO7FFLZ4Qo0jCPU=",
@@ -217,12 +218,12 @@
       "mscorlib.wasm": "sha256-QoC5hTKpDNO6efLnEvYwV9OJBXvYRq8/1yGhNZKiNCw=",
       "netstandard.wasm": "sha256-JT2F4bYWJpaSGq+iD0ITLpWxsDhMUjhqje9RpBtTg7w=",
       "System.Private.CoreLib.wasm": "sha256-fvIPBcvgvsRuWrKi2LGQsLYvcKUSnyIuBUsE3LJu/0Y=",
-      "Rattle.Core.wasm": "sha256-9VrDMidTxmO+Y/fGdqnhKIyI5DK0OlY5zoYu6my+jWQ=",
-      "Rattle.Client.wasm": "sha256-pASlkqxSaKkhZcjcdvPcksDrlHC6Xlfd8udsVuCISDw="
+      "Rattle.Core.wasm": "sha256-MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY=",
+      "Rattle.Client.wasm": "sha256-tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI="
     },
     "pdb": {
-      "Rattle.Core.pdb": "sha256-LjkbTPbFrF2GBdnNiXpNnRlDsOwb399yquJa79ZWjKM=",
-      "Rattle.Client.pdb": "sha256-xMsfs+hWZHNikjt6f9Mx1Tln77aizuNjzWHSkoYFbEo="
+      "Rattle.Core.pdb": "sha256-729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY=",
+      "Rattle.Client.pdb": "sha256-FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g="
     }
   },
   "cacheBootResources": true,

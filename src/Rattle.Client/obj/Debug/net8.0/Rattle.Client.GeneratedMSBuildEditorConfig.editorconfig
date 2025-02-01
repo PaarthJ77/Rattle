@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/paarth/projects/Rattle/src/Rattle.Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/paarth/projects/Rattle/src/Rattle.Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

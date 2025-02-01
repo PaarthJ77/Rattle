@@ -15,3 +15,4 @@
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.pdb
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.genruntimeconfig.cache
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/ref/Rattle.Infrastructure.dll
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.sourcelink.json

@@ -1,7 +1,6 @@
 @inherits LayoutComponentBase
 
 <div class="page">
-    <!-- Sidebar Navigation (NavMenu) -->
     <div class="sidebar">
         <div class="top-row ps-3 navbar navbar-dark">
             <div class="container-fluid">
@@ -11,7 +10,6 @@
                 </button>
             </div>
         </div>
-
         <div class="@NavCssClass nav-scrollable" @onclick="ToggleNav">
             <nav class="nav flex-column">
                 <div class="nav-item px-3">
@@ -37,13 +35,10 @@
             </nav>
         </div>
     </div>
-
-    <!-- Main Content Area -->
     <main>
         <div class="top-row px-4">
             <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
         </div>
-
         <article class="content px-4">
             @Body
         </article>
@@ -52,7 +47,6 @@
 
 @code {
     private bool _isNavCollapsed = true;
-
     private string? NavCssClass => _isNavCollapsed ? "collapse" : null;
 
     private void ToggleNav()

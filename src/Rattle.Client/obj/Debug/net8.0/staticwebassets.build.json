@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OpMtVRTS9xhRyokuduaZvYx4LvNUgfjMGQF5goVQyCU=",
+  "Hash": "pCcrttM3Z3M3AqSDqrJeaXm5pfep7RU3yzWrkrl7hNE=",
   "Source": "Rattle.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "l4gcridgq8",
-      "Integrity": "W9BhjQBVsib2mq5Gywb0CDsgx3MEywJvZEeSJGUisbQ=",
+      "Fingerprint": "y67ibtz82f",
+      "Integrity": "6qNKJp552LJeIUUf88NM16JHBBSTMWhkFVwuPN6wXak=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net8.0/blazor.boot.json"
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm"
+    },
+    {
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "SourceId": "Rattle.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "kvcvutmuvo",
+      "Integrity": "EFv+L1YnGvKwdvpSUAgxwhBJoxTLebypp66mmnzNKr4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.wasm",
@@ -1060,8 +1081,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "4shfgxp0be",
-      "Integrity": "xMsfs+hWZHNikjt6f9Mx1Tln77aizuNjzWHSkoYFbEo=",
+      "Fingerprint": "rcqqb2vpig",
+      "Integrity": "FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net8.0/Rattle.Client.pdb"
@@ -1081,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "samzlhhywm",
-      "Integrity": "pASlkqxSaKkhZcjcdvPcksDrlHC6Xlfd8udsVuCISDw=",
+      "Fingerprint": "tqzj4p4p56",
+      "Integrity": "tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/webcil/Rattle.Client.wasm"
@@ -1102,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "io6ozbooec",
-      "Integrity": "LjkbTPbFrF2GBdnNiXpNnRlDsOwb399yquJa79ZWjKM=",
+      "Fingerprint": "b57rnrp3am",
+      "Integrity": "729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Core/bin/Debug/net8.0/Rattle.Core.pdb"
@@ -1123,8 +1144,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "rkaah8kxxa",
-      "Integrity": "9VrDMidTxmO+Y/fGdqnhKIyI5DK0OlY5zoYu6my+jWQ=",
+      "Fingerprint": "mbldqx2qwn",
+      "Integrity": "MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/webcil/Rattle.Core.wasm"
@@ -4868,7 +4889,7 @@
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/System.ComponentModel.Primitives.wasm"
     },
     {
-      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-4shfgxp0be.gz",
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-rcqqb2vpig.gz",
       "SourceId": "Rattle.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/",
@@ -4882,8 +4903,8 @@
       "RelatedAsset": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i5bbj9fp28",
-      "Integrity": "NvT2VXgGXg4NRecnHZ8sJ+Q1t7c2jWVXwaQEZlWQMtM=",
+      "Fingerprint": "nhbznle2yw",
+      "Integrity": "628HMoFK70Nf+R48Gwm5eQKNCd1fQbPAi2gwXaBdv/A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Client.pdb"
@@ -5666,7 +5687,7 @@
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/System.Collections.Immutable.wasm"
     },
     {
-      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-l4gcridgq8.gz",
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-y67ibtz82f.gz",
       "SourceId": "Rattle.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/",
@@ -5680,8 +5701,8 @@
       "RelatedAsset": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mapbe0e9dd",
-      "Integrity": "Mr1czekRBvrXXyNizy9jsyUPgymHLK+sr11H9zZ8mec=",
+      "Fingerprint": "ypkwzloxjb",
+      "Integrity": "GphZSW7IQYDhYgDE/LffgbaiLL168WX6NUcbUgJxjVE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json"
@@ -6779,6 +6800,27 @@
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.js"
     },
     {
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/i23eyn57nx-kvcvutmuvo.gz",
+      "SourceId": "Rattle.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "p6tkgu9x3p",
+      "Integrity": "wejcG0+evf8ltKJBCu7en46UmZ3EcbNHBC0IoHd7x7E=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
+    },
+    {
       "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/i3npk7fel7-p88gm9z71j.gz",
       "SourceId": "Rattle.Client",
       "SourceType": "Computed",
@@ -7073,7 +7115,7 @@
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/System.Threading.Timer.wasm"
     },
     {
-      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-io6ozbooec.gz",
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-b57rnrp3am.gz",
       "SourceId": "Rattle.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/",
@@ -7087,8 +7129,8 @@
       "RelatedAsset": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Core.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3j9z84835s",
-      "Integrity": "//JIGre4THJ+VGqR+2XzVeUC8/Qz+iRh2SU+j6wj+Cc=",
+      "Fingerprint": "1slgz28ect",
+      "Integrity": "QR3y8FR3GUAJXTsE7cgEGsFkosh9uyI4nWeepeujaQI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Core.pdb"
@@ -7577,7 +7619,7 @@
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.Win32.Registry.wasm"
     },
     {
-      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-samzlhhywm.gz",
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-tqzj4p4p56.gz",
       "SourceId": "Rattle.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/",
@@ -7591,8 +7633,8 @@
       "RelatedAsset": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "br29zo7312",
-      "Integrity": "NwmUW4bEt9MTsfcZFWnw8/1XOS2O1jv9UwAEdQfSe6c=",
+      "Fingerprint": "m1gu2vx97i",
+      "Integrity": "uhpzKdYVllQ3sjYlYoTo0tVPMJAiHFcQT/EQUGMW0jc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Client.wasm"
@@ -8417,7 +8459,7 @@
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/System.IO.Pipes.wasm"
     },
     {
-      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-rkaah8kxxa.gz",
+      "Identity": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-mbldqx2qwn.gz",
       "SourceId": "Rattle.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/",
@@ -8431,8 +8473,8 @@
       "RelatedAsset": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Core.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0a7zkdyetx",
-      "Integrity": "mJcMpkhPeJgptn6xocpcmwVo0ndtAhDxj781jW2cUrw=",
+      "Fingerprint": "t2q5ktc1fa",
+      "Integrity": "u8QsAwih7lKI33rHHth5Lt+x9gb7n5S2BH/UbPPOQq8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Rattle.Core.wasm"
@@ -10088,7 +10130,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20457"
+          "Value": "20572"
         },
         {
           "Name": "Content-Type",
@@ -10096,11 +10138,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W9BhjQBVsib2mq5Gywb0CDsgx3MEywJvZEeSJGUisbQ=\""
+          "Value": "\"6qNKJp552LJeIUUf88NM16JHBBSTMWhkFVwuPN6wXak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:45:53 GMT"
+          "Value": "Sat, 01 Feb 2025 17:29:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10110,18 +10152,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W9BhjQBVsib2mq5Gywb0CDsgx3MEywJvZEeSJGUisbQ="
+          "Value": "sha256-6qNKJp552LJeIUUf88NM16JHBBSTMWhkFVwuPN6wXak="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-l4gcridgq8.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-y67ibtz82f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000109938434"
+          "Quality": "0.000109601052"
         }
       ],
       "ResponseHeaders": [
@@ -10131,15 +10173,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9095"
+          "Value": "9123"
         },
         {
           "Name": "ETag",
-          "Value": "\"Mr1czekRBvrXXyNizy9jsyUPgymHLK+sr11H9zZ8mec=\""
+          "Value": "\"GphZSW7IQYDhYgDE/LffgbaiLL168WX6NUcbUgJxjVE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:33 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10159,19 +10201,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"W9BhjQBVsib2mq5Gywb0CDsgx3MEywJvZEeSJGUisbQ=\""
+          "Value": "W/\"6qNKJp552LJeIUUf88NM16JHBBSTMWhkFVwuPN6wXak=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W9BhjQBVsib2mq5Gywb0CDsgx3MEywJvZEeSJGUisbQ="
+          "Value": "sha256-6qNKJp552LJeIUUf88NM16JHBBSTMWhkFVwuPN6wXak="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-l4gcridgq8.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-y67ibtz82f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10180,7 +10222,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9095"
+          "Value": "9123"
         },
         {
           "Name": "Content-Type",
@@ -10188,11 +10230,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mr1czekRBvrXXyNizy9jsyUPgymHLK+sr11H9zZ8mec=\""
+          "Value": "\"GphZSW7IQYDhYgDE/LffgbaiLL168WX6NUcbUgJxjVE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:33 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10210,7 +10252,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Mr1czekRBvrXXyNizy9jsyUPgymHLK+sr11H9zZ8mec="
+          "Value": "sha256-GphZSW7IQYDhYgDE/LffgbaiLL168WX6NUcbUgJxjVE="
         }
       ]
     },
@@ -11855,6 +11897,143 @@
         {
           "Name": "integrity",
           "Value": "sha256-I5K0QqiGWF2KMFuoJ1LrPNxej0xItoGkp2VcOmW/6+4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFv+L1YnGvKwdvpSUAgxwhBJoxTLebypp66mmnzNKr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 16:29:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EFv+L1YnGvKwdvpSUAgxwhBJoxTLebypp66mmnzNKr4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/i23eyn57nx-kvcvutmuvo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000105008926"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9522"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wejcG0+evf8ltKJBCu7en46UmZ3EcbNHBC0IoHd7x7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 16:29:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EFv+L1YnGvKwdvpSUAgxwhBJoxTLebypp66mmnzNKr4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EFv+L1YnGvKwdvpSUAgxwhBJoxTLebypp66mmnzNKr4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/i23eyn57nx-kvcvutmuvo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wejcG0+evf8ltKJBCu7en46UmZ3EcbNHBC0IoHd7x7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 16:29:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wejcG0+evf8ltKJBCu7en46UmZ3EcbNHBC0IoHd7x7E="
         }
       ]
     },
@@ -16801,7 +16980,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23864"
+          "Value": "27548"
         },
         {
           "Name": "Content-Type",
@@ -16809,11 +16988,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xMsfs+hWZHNikjt6f9Mx1Tln77aizuNjzWHSkoYFbEo=\""
+          "Value": "\"FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16823,18 +17002,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xMsfs+hWZHNikjt6f9Mx1Tln77aizuNjzWHSkoYFbEo="
+          "Value": "sha256-FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Client.pdb",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-4shfgxp0be.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-rcqqb2vpig.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000059520267"
+          "Quality": "0.000050540786"
         }
       ],
       "ResponseHeaders": [
@@ -16844,15 +17023,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16800"
+          "Value": "19785"
         },
         {
           "Name": "ETag",
-          "Value": "\"NvT2VXgGXg4NRecnHZ8sJ+Q1t7c2jWVXwaQEZlWQMtM=\""
+          "Value": "\"628HMoFK70Nf+R48Gwm5eQKNCd1fQbPAi2gwXaBdv/A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16872,19 +17051,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xMsfs+hWZHNikjt6f9Mx1Tln77aizuNjzWHSkoYFbEo=\""
+          "Value": "W/\"FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xMsfs+hWZHNikjt6f9Mx1Tln77aizuNjzWHSkoYFbEo="
+          "Value": "sha256-FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Client.pdb.gz",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-4shfgxp0be.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-rcqqb2vpig.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16893,7 +17072,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16800"
+          "Value": "19785"
         },
         {
           "Name": "Content-Type",
@@ -16901,11 +17080,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NvT2VXgGXg4NRecnHZ8sJ+Q1t7c2jWVXwaQEZlWQMtM=\""
+          "Value": "\"628HMoFK70Nf+R48Gwm5eQKNCd1fQbPAi2gwXaBdv/A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16923,7 +17102,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NvT2VXgGXg4NRecnHZ8sJ+Q1t7c2jWVXwaQEZlWQMtM="
+          "Value": "sha256-628HMoFK70Nf+R48Gwm5eQKNCd1fQbPAi2gwXaBdv/A="
         }
       ]
     },
@@ -16938,7 +17117,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20757"
+          "Value": "27925"
         },
         {
           "Name": "Content-Type",
@@ -16946,11 +17125,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pASlkqxSaKkhZcjcdvPcksDrlHC6Xlfd8udsVuCISDw=\""
+          "Value": "\"tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16960,18 +17139,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pASlkqxSaKkhZcjcdvPcksDrlHC6Xlfd8udsVuCISDw="
+          "Value": "sha256-tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Client.wasm",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-samzlhhywm.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-tqzj4p4p56.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000110546098"
+          "Quality": "0.000082311301"
         }
       ],
       "ResponseHeaders": [
@@ -16981,15 +17160,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9045"
+          "Value": "12148"
         },
         {
           "Name": "ETag",
-          "Value": "\"NwmUW4bEt9MTsfcZFWnw8/1XOS2O1jv9UwAEdQfSe6c=\""
+          "Value": "\"uhpzKdYVllQ3sjYlYoTo0tVPMJAiHFcQT/EQUGMW0jc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17009,19 +17188,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pASlkqxSaKkhZcjcdvPcksDrlHC6Xlfd8udsVuCISDw=\""
+          "Value": "W/\"tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pASlkqxSaKkhZcjcdvPcksDrlHC6Xlfd8udsVuCISDw="
+          "Value": "sha256-tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Client.wasm.gz",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-samzlhhywm.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-tqzj4p4p56.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17030,7 +17209,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9045"
+          "Value": "12148"
         },
         {
           "Name": "Content-Type",
@@ -17038,11 +17217,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NwmUW4bEt9MTsfcZFWnw8/1XOS2O1jv9UwAEdQfSe6c=\""
+          "Value": "\"uhpzKdYVllQ3sjYlYoTo0tVPMJAiHFcQT/EQUGMW0jc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17060,7 +17239,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NwmUW4bEt9MTsfcZFWnw8/1XOS2O1jv9UwAEdQfSe6c="
+          "Value": "sha256-uhpzKdYVllQ3sjYlYoTo0tVPMJAiHFcQT/EQUGMW0jc="
         }
       ]
     },
@@ -17075,7 +17254,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11988"
+          "Value": "12160"
         },
         {
           "Name": "Content-Type",
@@ -17083,11 +17262,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LjkbTPbFrF2GBdnNiXpNnRlDsOwb399yquJa79ZWjKM=\""
+          "Value": "\"729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:41:35 GMT"
+          "Value": "Sat, 01 Feb 2025 16:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17097,18 +17276,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LjkbTPbFrF2GBdnNiXpNnRlDsOwb399yquJa79ZWjKM="
+          "Value": "sha256-729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Core.pdb",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-io6ozbooec.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-b57rnrp3am.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000146756677"
+          "Quality": "0.000143802128"
         }
       ],
       "ResponseHeaders": [
@@ -17118,15 +17297,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6813"
+          "Value": "6953"
         },
         {
           "Name": "ETag",
-          "Value": "\"//JIGre4THJ+VGqR+2XzVeUC8/Qz+iRh2SU+j6wj+Cc=\""
+          "Value": "\"QR3y8FR3GUAJXTsE7cgEGsFkosh9uyI4nWeepeujaQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:41:35 GMT"
+          "Value": "Sat, 01 Feb 2025 16:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17146,19 +17325,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LjkbTPbFrF2GBdnNiXpNnRlDsOwb399yquJa79ZWjKM=\""
+          "Value": "W/\"729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LjkbTPbFrF2GBdnNiXpNnRlDsOwb399yquJa79ZWjKM="
+          "Value": "sha256-729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Core.pdb.gz",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-io6ozbooec.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-b57rnrp3am.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17167,7 +17346,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6813"
+          "Value": "6953"
         },
         {
           "Name": "Content-Type",
@@ -17175,11 +17354,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"//JIGre4THJ+VGqR+2XzVeUC8/Qz+iRh2SU+j6wj+Cc=\""
+          "Value": "\"QR3y8FR3GUAJXTsE7cgEGsFkosh9uyI4nWeepeujaQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:41:35 GMT"
+          "Value": "Sat, 01 Feb 2025 16:23:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17197,7 +17376,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-//JIGre4THJ+VGqR+2XzVeUC8/Qz+iRh2SU+j6wj+Cc="
+          "Value": "sha256-QR3y8FR3GUAJXTsE7cgEGsFkosh9uyI4nWeepeujaQI="
         }
       ]
     },
@@ -17220,11 +17399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9VrDMidTxmO+Y/fGdqnhKIyI5DK0OlY5zoYu6my+jWQ=\""
+          "Value": "\"MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 16:29:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17234,18 +17413,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9VrDMidTxmO+Y/fGdqnhKIyI5DK0OlY5zoYu6my+jWQ="
+          "Value": "sha256-MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Core.wasm",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-rkaah8kxxa.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-mbldqx2qwn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000323729362"
+          "Quality": "0.000313676286"
         }
       ],
       "ResponseHeaders": [
@@ -17255,15 +17434,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3088"
+          "Value": "3187"
         },
         {
           "Name": "ETag",
-          "Value": "\"mJcMpkhPeJgptn6xocpcmwVo0ndtAhDxj781jW2cUrw=\""
+          "Value": "\"u8QsAwih7lKI33rHHth5Lt+x9gb7n5S2BH/UbPPOQq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 16:29:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17283,19 +17462,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9VrDMidTxmO+Y/fGdqnhKIyI5DK0OlY5zoYu6my+jWQ=\""
+          "Value": "W/\"MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9VrDMidTxmO+Y/fGdqnhKIyI5DK0OlY5zoYu6my+jWQ="
+          "Value": "sha256-MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY="
         }
       ]
     },
     {
       "Route": "_framework/Rattle.Core.wasm.gz",
-      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-rkaah8kxxa.gz",
+      "AssetFile": "/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-mbldqx2qwn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17304,7 +17483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3088"
+          "Value": "3187"
         },
         {
           "Name": "Content-Type",
@@ -17312,11 +17491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mJcMpkhPeJgptn6xocpcmwVo0ndtAhDxj781jW2cUrw=\""
+          "Value": "\"u8QsAwih7lKI33rHHth5Lt+x9gb7n5S2BH/UbPPOQq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 15:43:32 GMT"
+          "Value": "Sat, 01 Feb 2025 16:29:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17334,7 +17513,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mJcMpkhPeJgptn6xocpcmwVo0ndtAhDxj781jW2cUrw="
+          "Value": "sha256-u8QsAwih7lKI33rHHth5Lt+x9gb7n5S2BH/UbPPOQq8="
         }
       ]
     },

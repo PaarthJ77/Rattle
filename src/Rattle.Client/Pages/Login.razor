@@ -1,0 +1,41 @@
+@page "/login"
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h3>Login</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div>
+        <label>Username:</label>
+        <InputText @bind-Value="loginModel.Username" />
+    </div>
+    <div>
+        <label>Password:</label>
+        <InputText @bind-Value="loginModel.Password" type="password" />
+    </div>
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new();
+
+    private async Task HandleLogin()
+    {
+        if (!string.IsNullOrWhiteSpace(loginModel.Username))
+        {
+            if (AuthStateProvider is CustomAuthStateProvider customAuthStateProvider)
+            {
+                customAuthStateProvider.MarkUserAsAuthenticated(loginModel.Username);
+            }
+            Navigation.NavigateTo("/");
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
+}

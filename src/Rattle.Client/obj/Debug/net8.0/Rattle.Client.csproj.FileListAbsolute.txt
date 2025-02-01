@@ -1063,11 +1063,6 @@
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/wr4ep60ipj-tptq2av103.gz
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/9j2mitnt1f-lfu7j35m59.gz
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/c8gwipk2je-oyz0vx2fzb.gz
-/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-rkaah8kxxa.gz
-/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-io6ozbooec.gz
-/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-samzlhhywm.gz
-/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-4shfgxp0be.gz
-/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-l4gcridgq8.gz
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/staticwebassets.build.json
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/staticwebassets.development.json
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/staticwebassets.build.endpoints.json
@@ -1082,3 +1077,14 @@
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/refint/Rattle.Client.dll
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/Rattle.Client.pdb
 /Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/ref/Rattle.Client.dll
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/Rattle.Client.sourcelink.json
+/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm
+/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz
+/Users/paarth/projects/Rattle/src/Rattle.Client/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Authorization.wasm
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/i23eyn57nx-kvcvutmuvo.gz
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/vkfr3ozf0m-mbldqx2qwn.gz
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/k6cltihwnb-b57rnrp3am.gz
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/ngc8ije3ny-tqzj4p4p56.gz
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/2xk8hflrfc-rcqqb2vpig.gz
+/Users/paarth/projects/Rattle/src/Rattle.Client/obj/Debug/net8.0/compressed/8ug96na1px-y67ibtz82f.gz

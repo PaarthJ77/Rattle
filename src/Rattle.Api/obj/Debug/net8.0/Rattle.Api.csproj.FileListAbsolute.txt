@@ -145,3 +145,4 @@
 /Users/paarth/projects/Rattle/src/Rattle.Api/obj/Debug/net8.0/Rattle.Api.pdb
 /Users/paarth/projects/Rattle/src/Rattle.Api/obj/Debug/net8.0/Rattle.Api.genruntimeconfig.cache
 /Users/paarth/projects/Rattle/src/Rattle.Api/obj/Debug/net8.0/ref/Rattle.Api.dll
+/Users/paarth/projects/Rattle/src/Rattle.Api/obj/Debug/net8.0/Rattle.Api.sourcelink.json

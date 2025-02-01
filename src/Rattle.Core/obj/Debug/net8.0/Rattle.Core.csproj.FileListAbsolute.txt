@@ -9,3 +9,4 @@
 /Users/paarth/projects/Rattle/src/Rattle.Core/obj/Debug/net8.0/refint/Rattle.Core.dll
 /Users/paarth/projects/Rattle/src/Rattle.Core/obj/Debug/net8.0/Rattle.Core.pdb
 /Users/paarth/projects/Rattle/src/Rattle.Core/obj/Debug/net8.0/ref/Rattle.Core.dll
+/Users/paarth/projects/Rattle/src/Rattle.Core/obj/Debug/net8.0/Rattle.Core.sourcelink.json
