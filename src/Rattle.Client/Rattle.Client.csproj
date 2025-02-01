@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+    <UseWebAssembly>true</UseWebAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ✅ Blazor WebAssembly dependencies -->
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
+
+    <!-- ✅ SignalR for real-time updates -->
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.0" />
+
+    <!-- ✅ Configuration Support -->
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Rattle.Core/Rattle.Core.csproj" />
+    <!-- ❌ REMOVED Rattle.Infrastructure REFERENCE (EF Core does NOT work in Blazor WebAssembly) -->
+  </ItemGroup>
+
+</Project>

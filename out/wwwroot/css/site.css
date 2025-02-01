@@ -1,0 +1,33 @@
+/* Dark Theme */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: #f0c14b; /* Amazon-style gold */
+    text-decoration: none;
+}
+
+button {
+    background-color: #f0c14b;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d4a620;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}

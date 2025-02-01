@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hlPwJfXtDd0=",
+  "success": true,
+  "projectFilePath": "/Users/paarth/projects/Rattle/src/Rattle.Core/Rattle.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/paarth/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/paarth/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

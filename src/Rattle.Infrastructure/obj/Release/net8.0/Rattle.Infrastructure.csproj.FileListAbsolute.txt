@@ -1,0 +1,17 @@
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/bin/Release/net8.0/Rattle.Infrastructure.deps.json
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/bin/Release/net8.0/Rattle.Infrastructure.runtimeconfig.json
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/bin/Release/net8.0/Rattle.Infrastructure.dll
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/bin/Release/net8.0/Rattle.Infrastructure.pdb
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/bin/Release/net8.0/Rattle.Core.dll
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/bin/Release/net8.0/Rattle.Core.pdb
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.csproj.AssemblyReference.cache
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.AssemblyInfoInputs.cache
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.AssemblyInfo.cs
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.csproj.CopyComplete
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.dll
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/refint/Rattle.Infrastructure.dll
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.pdb
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/Rattle.Infrastructure.genruntimeconfig.cache
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Release/net8.0/ref/Rattle.Infrastructure.dll

@@ -1,0 +1,61 @@
+version: "3.8"
+
+services:
+  rattle_db:
+    image: postgres:15-alpine
+    container_name: rattle_db
+    restart: always
+    environment:
+      POSTGRES_USER: rattle_user
+      POSTGRES_PASSWORD: rattle_pass
+      POSTGRES_DB: rattle_db
+    ports:
+      - "5434:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    networks:
+      - rattle-net
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "rattle_user", "-d", "rattle_db"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+
+  rattle_api:
+    container_name: rattle_api
+    build:
+      context: .
+      dockerfile: ./src/Rattle.Api/Dockerfile
+    restart: always
+    ports:
+      - "8080:8080"  # Expose only HTTP
+    environment:
+      ASPNETCORE_URLS: "http://+:8080"
+      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: "true"
+      DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: "true"
+      ConnectionStrings__DefaultConnection: "Host=rattle_db;Database=rattle_db;Username=rattle_user;Password=rattle_pass"
+    depends_on:
+      rattle_db:
+        condition: service_healthy
+    networks:
+      - rattle-net
+
+  rattle_client:
+    container_name: rattle_client
+    build:
+      context: .
+      dockerfile: ./src/Rattle.Client/Dockerfile
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - rattle_api
+    networks:
+      - rattle-net
+
+volumes:
+  dbdata:
+
+networks:
+  rattle-net:
+    driver: bridge

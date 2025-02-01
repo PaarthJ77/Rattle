@@ -1,0 +1,3 @@
+/Users/paarth/projects/Rattle/out/Rattle.Core.dll
+/Users/paarth/projects/Rattle/out/Rattle.Core.deps.json
+/Users/paarth/projects/Rattle/out/Rattle.Core.pdb

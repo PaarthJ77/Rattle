@@ -1,0 +1,6 @@
+@Rattle.Api_HostAddress = http://localhost:5046
+
+GET {{Rattle.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

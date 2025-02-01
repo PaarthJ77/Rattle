@@ -1,0 +1,79 @@
+@page "/auction"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject HttpClient Http
+@inject NavigationManager Navigation
+
+<h1>Live Auction</h1>
+@if (auctionItems == null)
+{
+    <p>Loading auction items...</p>
+}
+else
+{
+    <div class="auction-container">
+        @foreach (var item in auctionItems)
+        {
+            <div class="card auction-item">
+                <h2>@item.Title</h2>
+                <p>@item.Description</p>
+                <p>Current Bid: $@item.CurrentPrice</p>
+                <p>Ends in: @GetCountdown(item.EndDate)</p>
+                <button @onclick="() => PlaceBid(item)">Place Bid</button>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    public class AuctionItem
+    {
+        public int AuctionItemId { get; set; }
+        public string Title { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public decimal StartingPrice { get; set; }
+        public decimal CurrentPrice { get; set; }
+        public DateTime EndDate { get; set; }
+        public int OwnerId { get; set; }
+        public bool IsClosed { get; set; }
+    }
+
+    List<AuctionItem>? auctionItems;
+    HubConnection? hubConnection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        auctionItems = await Http.GetFromJsonAsync<List<AuctionItem>>("api/auctionitems");
+        await SetupSignalR();
+    }
+
+    async Task SetupSignalR()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("/biddingHub"))
+            .Build();
+
+        hubConnection.On<int, decimal>("ReceiveBidUpdate", (auctionItemId, newPrice) =>
+        {
+            var item = auctionItems?.FirstOrDefault(a => a.AuctionItemId == auctionItemId);
+            if (item != null)
+            {
+                item.CurrentPrice = newPrice;
+                StateHasChanged();
+            }
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    void PlaceBid(AuctionItem item)
+    {
+        // For demo, increment bid locally. In a real app, call your API.
+        item.CurrentPrice += 50;
+    }
+
+    string GetCountdown(DateTime endDate)
+    {
+        var remaining = endDate - DateTime.UtcNow;
+        return remaining.TotalSeconds <= 0 ? "Auction ended" : $"{remaining.Hours:D2}:{remaining.Minutes:D2}:{remaining.Seconds:D2}";
+    }
+}
