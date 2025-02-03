@@ -9,10 +9,10 @@
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.AssemblyInfoInputs.cache
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.AssemblyInfo.cs
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.csproj.CoreCompileInputs.cache
-/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.I.FB7A1938.Up2Date
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.sourcelink.json
+/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.csproj.CopyComplete
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.dll
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/refint/Rattle.Infrastructure.dll
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.pdb
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.genruntimeconfig.cache
 /Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/ref/Rattle.Infrastructure.dll
-/Users/paarth/projects/Rattle/src/Rattle.Infrastructure/obj/Debug/net8.0/Rattle.Infrastructure.sourcelink.json

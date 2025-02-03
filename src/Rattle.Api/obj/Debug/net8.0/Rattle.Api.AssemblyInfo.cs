@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rattle.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9ec0db39d1f4398f932a775ba5282b182e147c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39412c5e19ccff877d886d3af97afe67cb81a54c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rattle.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rattle.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

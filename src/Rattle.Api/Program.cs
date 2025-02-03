@@ -1,62 +1,38 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Rattle.Infrastructure;
-using Rattle.Api.Hubs;
 using Microsoft.EntityFrameworkCore;
+using Rattle.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<RattleDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
-);
-
-builder.Services.AddControllers();
-builder.Services.AddSignalR();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Secret"] ?? "your_super_secret_key_here_change_this");
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.RequireHttpsMetadata = false;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false,
-        ClockSkew = TimeSpan.Zero
-    };
-});
-
+// CORS Configuration
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAllOrigins", policy =>
+    options.AddPolicy("AllowClient", policy =>
     {
         policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
 
+// PostgreSQL Database Configuration
+var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
+
+builder.Services.AddDbContext<RattleDbContext>(options =>
+    options.UseNpgsql(connectionString,
+        b => b.MigrationsAssembly("Rattle.Infrastructure"))
+);
+
+// API & Middleware Setup
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-// Always enable Swagger (remove the if block)
-app.UseSwagger();
-app.UseSwaggerUI();
-
-app.UseCors("AllowAllOrigins");
-app.UseAuthentication();
+app.UseCors("AllowClient");
+app.UseDeveloperExceptionPage();
+app.UseHttpsRedirection();
 app.UseAuthorization();
-
 app.MapControllers();
-app.MapHub<BiddingHub>("/biddingHub");
 
 app.Run();

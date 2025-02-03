@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nUBnOmynNxs=",
+  "dgSpecHash": "3ysvxY757eD70kliYhesW6nEleO5zEftPYKDuhSNeQLT/nIDz2nr1bzc2Hw+ORq6idkDymc//+Bs+ZdeBvRDAw==",
   "success": true,
   "projectFilePath": "/Users/paarth/projects/Rattle/src/Rattle.Client/Rattle.Client.csproj",
   "expectedPackageFiles": [
@@ -38,14 +38,11 @@
     "/Users/paarth/.nuget/packages/microsoft.jsinterop/8.0.0/microsoft.jsinterop.8.0.0.nupkg.sha512",
     "/Users/paarth/.nuget/packages/microsoft.jsinterop.webassembly/8.0.0/microsoft.jsinterop.webassembly.8.0.0.nupkg.sha512",
     "/Users/paarth/.nuget/packages/microsoft.net.illink.tasks/8.0.12/microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
-    "/Users/paarth/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.1/microsoft.net.sdk.webassembly.pack.9.0.1.nupkg.sha512",
+    "/Users/paarth/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.12/microsoft.net.sdk.webassembly.pack.8.0.12.nupkg.sha512",
     "/Users/paarth/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/Users/paarth/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/paarth/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/paarth/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
-    "/Users/paarth/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
-    "/Users/paarth/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.12/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.12.nupkg.sha512",
-    "/Users/paarth/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+    "/Users/paarth/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

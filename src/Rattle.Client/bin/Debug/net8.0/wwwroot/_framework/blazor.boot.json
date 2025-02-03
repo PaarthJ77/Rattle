@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "Rattle.Client",
   "resources": {
-    "hash": "sha256-GPmg1vAK0fe6R+7eITzPC31AeiFjIXvvwLezxOJDuBs=",
+    "hash": "sha256-RyWsxM7x3pG5SWz740B3euxXJBls5IR5Mr2gEmbAFP0=",
     "jsModuleNative": {
-      "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
+      "dotnet.native.8.0.12.oje0tpaiki.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.js": "sha256-aTAnT1r/EAWev8oI/mTFI9nH3RsfA5M822bNiGhok6U="
+      "dotnet.runtime.8.0.12.ruvhsg2uw2.js": "sha256-aTAnT1r/EAWev8oI/mTFI9nH3RsfA5M822bNiGhok6U="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-4X9eav+Ak45oe3jDiM7H2gSxg1ZRzmhn9QfZURenUbE="
@@ -16,7 +16,6 @@
       "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
-    "coreAssembly": {},
     "assembly": {
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-j29bzsbGr0GXbz3saSOBqDtWxNOK08Or3b1HgnZ+pvA=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-0SRqG4hZOVUUFxERmD93PJWBJR6d4gCf5UB9vF6jB9A=",
@@ -218,12 +217,12 @@
       "mscorlib.wasm": "sha256-QoC5hTKpDNO6efLnEvYwV9OJBXvYRq8/1yGhNZKiNCw=",
       "netstandard.wasm": "sha256-JT2F4bYWJpaSGq+iD0ITLpWxsDhMUjhqje9RpBtTg7w=",
       "System.Private.CoreLib.wasm": "sha256-fvIPBcvgvsRuWrKi2LGQsLYvcKUSnyIuBUsE3LJu/0Y=",
-      "Rattle.Core.wasm": "sha256-MsvPKYyw7Ch+yShWVnqNaxfhEZSCYIGSGlQKSfxTnoY=",
-      "Rattle.Client.wasm": "sha256-tUMck4FGE0kXQ5mKvebC+FLmrAjCLGQh+NAzpa6mAWI="
+      "Rattle.Core.wasm": "sha256-Zj33T5LBv+Dyc2xYC3aNPbyA5UX+ULm+gk4XK6P3pL8=",
+      "Rattle.Client.wasm": "sha256-qUIkUEf4OcnCIcwWu8yeaB7DEGZ325V0KX++rUmGLXk="
     },
     "pdb": {
-      "Rattle.Core.pdb": "sha256-729FEWviATY5TfxyFxWg26ihNUEhnGfOkRMXSYTB7zY=",
-      "Rattle.Client.pdb": "sha256-FZVES1NkzQjAYNdnBSo2mclJkpMHdRFKYqEDqm11/2g="
+      "Rattle.Core.pdb": "sha256-7zcc+vCeDq3DI8oUW9MiC/asAuTnqXPCW4Ir+sj6fjY=",
+      "Rattle.Client.pdb": "sha256-WTBHxHhf1pmX/GHDXVzNDjoHa3f4aB1ommGvb01OeLI="
     }
   },
   "cacheBootResources": true,

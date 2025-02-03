@@ -19,31 +19,37 @@ namespace Rattle.Infrastructure
             base.OnModelCreating(modelBuilder);
 
             // User
-            modelBuilder.Entity<User>()
-                .HasKey(u => u.UserId);
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(u => u.UserId);
+                entity.Property(u => u.Username).IsRequired();
+                entity.Property(u => u.Email).IsRequired();
+                entity.Property(u => u.PasswordHash).IsRequired();
+            });
 
             // AuctionItem
-            modelBuilder.Entity<AuctionItem>()
-                .HasKey(a => a.AuctionItemId);
-            modelBuilder.Entity<AuctionItem>()
-                .HasOne(a => a.Owner)
-                .WithMany()
-                .HasForeignKey(a => a.OwnerId)
-                .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<AuctionItem>(entity =>
+            {
+                entity.HasKey(a => a.AuctionItemId);
+                entity.HasOne(a => a.Owner)
+                      .WithMany()
+                      .HasForeignKey(a => a.OwnerId)
+                      .OnDelete(DeleteBehavior.Restrict);
+            });
 
             // Bid
-            modelBuilder.Entity<Bid>()
-                .HasKey(b => b.BidId);
-            modelBuilder.Entity<Bid>()
-                .HasOne(b => b.AuctionItem)
-                .WithMany(a => a.Bids)
-                .HasForeignKey(b => b.AuctionItemId)
-                .OnDelete(DeleteBehavior.Cascade);
-            modelBuilder.Entity<Bid>()
-                .HasOne(b => b.Bidder)
-                .WithMany()
-                .HasForeignKey(b => b.BidderId)
-                .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<Bid>(entity =>
+            {
+                entity.HasKey(b => b.BidId);
+                entity.HasOne(b => b.AuctionItem)
+                      .WithMany(a => a.Bids)
+                      .HasForeignKey(b => b.AuctionItemId)
+                      .OnDelete(DeleteBehavior.Cascade);
+                entity.HasOne(b => b.Bidder)
+                      .WithMany()
+                      .HasForeignKey(b => b.BidderId)
+                      .OnDelete(DeleteBehavior.Restrict);
+            });
         }
     }
 }

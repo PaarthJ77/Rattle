@@ -1,8 +1,13 @@
 @page "/login"
+@inject HttpClient Http
 @inject NavigationManager Navigation
-@inject AuthenticationStateProvider AuthStateProvider
 
 <h3>Login</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
 
 <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
     <DataAnnotationsValidator />
@@ -18,18 +23,33 @@
     <button type="submit">Login</button>
 </EditForm>
 
+<p>
+    Don't have an account? <a href="/register">Register here</a>.
+</p>
+
 @code {
     private LoginModel loginModel = new();
+    private string errorMessage = string.Empty;
 
     private async Task HandleLogin()
     {
-        if (!string.IsNullOrWhiteSpace(loginModel.Username))
+        errorMessage = string.Empty;
+        try
         {
-            if (AuthStateProvider is CustomAuthStateProvider customAuthStateProvider)
+            var response = await Http.PostAsJsonAsync("api/users/login", loginModel);
+            if (response.IsSuccessStatusCode)
             {
-                customAuthStateProvider.MarkUserAsAuthenticated(loginModel.Username);
+                var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                Navigation.NavigateTo("/");
             }
-            Navigation.NavigateTo("/");
+            else
+            {
+                errorMessage = await response.Content.ReadAsStringAsync();
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = ex.Message;
         }
     }
 
@@ -37,5 +57,11 @@
     {
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
+    }
+
+    public class LoginResponse
+    {
+        public string Message { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
     }
 }

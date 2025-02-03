@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "IS16tM+QyZtl2aYmP/fUW5gKdEo07l3hMtB3lEduM9s=",
+  "Hash": "KtMygLkBQsWMpth0eUlfpu85C61yFjk8AsLASQO6Dog=",
   "Source": "Rattle.Api",
   "BasePath": "_content/Rattle.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
