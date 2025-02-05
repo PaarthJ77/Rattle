@@ -4,22 +4,37 @@
 
 <h1>Welcome to Rattle Auction</h1>
 
-@if (!(authState?.User?.Identity?.IsAuthenticated ?? false))
+@if (isUserAuthenticated)
 {
-    <button class="btn btn-primary" @onclick="NavigateToLogin">Login</button>
+    <p>You are logged in as @username!</p>
+    <button class="btn btn-danger" @onclick="Logout">Logout</button>
 }
 else
 {
-    <p>You are logged in as @authState.User.Identity.Name!</p>
-    <button class="btn btn-danger" @onclick="Logout">Logout</button>
+    <button class="btn btn-primary" @onclick="NavigateToLogin">Login</button>
 }
 
 @code {
-    private AuthenticationState? authState;
+    private bool isUserAuthenticated = false;
+    private string username = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
-        authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        AuthenticationStateProvider.AuthenticationStateChanged += OnAuthenticationStateChanged;
+        await CheckAuthenticationState();
+    }
+
+    private async Task CheckAuthenticationState()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        isUserAuthenticated = authState.User.Identity?.IsAuthenticated ?? false;
+        username = authState.User.Identity?.Name ?? string.Empty;
+        StateHasChanged(); // Refresh UI
+    }
+
+    private void OnAuthenticationStateChanged(Task<AuthenticationState> task)
+    {
+        InvokeAsync(async () => await CheckAuthenticationState());
     }
 
     private void NavigateToLogin()
@@ -27,12 +42,17 @@ else
         Navigation.NavigateTo("/login");
     }
 
-    private void Logout()
+    private async Task Logout()
     {
         if (AuthenticationStateProvider is CustomAuthStateProvider customAuthStateProvider)
         {
-            customAuthStateProvider.MarkUserAsLoggedOut();
+            await customAuthStateProvider.MarkUserAsLoggedOut();
         }
         Navigation.NavigateTo("/");
+    }
+
+    public void Dispose()
+    {
+        AuthenticationStateProvider.AuthenticationStateChanged -= OnAuthenticationStateChanged;
     }
 }

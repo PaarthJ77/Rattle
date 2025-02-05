@@ -4,6 +4,7 @@
 @inject NavigationManager Navigation
 
 <h1>Live Auction</h1>
+
 @if (auctionItems == null)
 {
     <p>Loading auction items...</p>
@@ -49,9 +50,11 @@ else
     async Task SetupSignalR()
     {
         hubConnection = new HubConnectionBuilder()
-            .WithUrl(Navigation.ToAbsoluteUri("/biddingHub"))
+            .WithUrl(Navigation.ToAbsoluteUri("http://localhost:8080/biddingHub"))
+            .WithAutomaticReconnect()
             .Build();
 
+        // Handle incoming bid updates from the server
         hubConnection.On<int, decimal>("ReceiveBidUpdate", (auctionItemId, newPrice) =>
         {
             var item = auctionItems?.FirstOrDefault(a => a.AuctionItemId == auctionItemId);
@@ -65,10 +68,13 @@ else
         await hubConnection.StartAsync();
     }
 
-    void PlaceBid(AuctionItem item)
+    async Task PlaceBid(AuctionItem item)
     {
-        // For demo, increment bid locally. In a real app, call your API.
-        item.CurrentPrice += 50;
+        if (hubConnection != null && hubConnection.State == HubConnectionState.Connected)
+        {
+            var newBid = item.CurrentPrice + 50;
+            await hubConnection.SendAsync("PlaceBid", item.AuctionItemId, newBid);
+        }
     }
 
     string GetCountdown(DateTime endDate)

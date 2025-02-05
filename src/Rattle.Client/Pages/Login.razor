@@ -1,6 +1,7 @@
 @page "/login"
 @inject HttpClient Http
 @inject NavigationManager Navigation
+@inject CustomAuthStateProvider AuthStateProvider
 
 <h3>Login</h3>
 
@@ -40,6 +41,7 @@
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                await AuthStateProvider.MarkUserAsAuthenticated(result.Username);
                 Navigation.NavigateTo("/");
             }
             else

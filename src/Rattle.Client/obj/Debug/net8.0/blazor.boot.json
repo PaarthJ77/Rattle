@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Rattle.Client",
   "resources": {
-    "hash": "sha256-RyWsxM7x3pG5SWz740B3euxXJBls5IR5Mr2gEmbAFP0=",
+    "hash": "sha256-7FxZbmsG2gXnnE0tAdbjlECm155E7MsoSZkMsld76d4=",
     "jsModuleNative": {
       "dotnet.native.8.0.12.oje0tpaiki.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
@@ -217,12 +217,12 @@
       "mscorlib.wasm": "sha256-QoC5hTKpDNO6efLnEvYwV9OJBXvYRq8/1yGhNZKiNCw=",
       "netstandard.wasm": "sha256-JT2F4bYWJpaSGq+iD0ITLpWxsDhMUjhqje9RpBtTg7w=",
       "System.Private.CoreLib.wasm": "sha256-fvIPBcvgvsRuWrKi2LGQsLYvcKUSnyIuBUsE3LJu/0Y=",
-      "Rattle.Core.wasm": "sha256-Zj33T5LBv+Dyc2xYC3aNPbyA5UX+ULm+gk4XK6P3pL8=",
-      "Rattle.Client.wasm": "sha256-qUIkUEf4OcnCIcwWu8yeaB7DEGZ325V0KX++rUmGLXk="
+      "Rattle.Core.wasm": "sha256-hKkFHrtcRO5QR39BRXYcievJVcV6BXlS3FErfgyiXfA=",
+      "Rattle.Client.wasm": "sha256-pXBDhJxFLF+0V7DByj/q24W+gyyXI+iy23Wd++9z1tk="
     },
     "pdb": {
-      "Rattle.Core.pdb": "sha256-7zcc+vCeDq3DI8oUW9MiC/asAuTnqXPCW4Ir+sj6fjY=",
-      "Rattle.Client.pdb": "sha256-WTBHxHhf1pmX/GHDXVzNDjoHa3f4aB1ommGvb01OeLI="
+      "Rattle.Core.pdb": "sha256-45L2cHT1hJ48P+t5sRvw8pCtsSFmEFHoH6kyGotBaZ4=",
+      "Rattle.Client.pdb": "sha256-YuvYJr6mZS6Ut1EhVwI2t+uL1nvnC7xRzwK4pMXyvVE="
     }
   },
   "cacheBootResources": true,
